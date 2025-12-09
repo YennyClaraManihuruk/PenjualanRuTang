@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Customer, LineItem, Product, OrderSummary } from '../types';
+import { Customer, LineItem, Product, OrderSummary } from '../types.ts';
 import { Search, Plus, Trash2, Save, FileText, Truck, CreditCard, Box, Zap, User } from 'lucide-react';
-import { getStrategicInsight } from '../services/geminiService';
+import { getStrategicInsight } from '../services/geminiService.ts';
 
 // --- MOCK DATA ---
 const MOCK_CUSTOMERS: Customer[] = [

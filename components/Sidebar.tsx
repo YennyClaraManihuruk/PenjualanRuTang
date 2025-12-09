@@ -1,6 +1,6 @@
 import React from 'react';
 import { LayoutDashboard, ShoppingCart, Package, Users, Settings, LogOut, Hexagon, FileBarChart } from 'lucide-react';
-import { View } from '../types';
+import { View } from '../types.ts';
 
 interface SidebarProps {
   currentView: View;

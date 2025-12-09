@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, AreaChart, Area } from 'recharts';
 import { ArrowUpRight, ArrowDownRight, TrendingUp, AlertTriangle, Package, DollarSign, Activity, Sparkles } from 'lucide-react';
-import { getStrategicInsight } from '../services/geminiService';
+import { getStrategicInsight } from '../services/geminiService.ts';
 
 // Data dalam Jutaan Rupiah untuk grafik
 const salesData = [

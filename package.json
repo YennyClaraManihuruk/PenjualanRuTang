@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Lumina ERP Prototype",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html index.tsx types.ts App.tsx dist/ && cp -r components services utils dist/ && sed -i \"s|__API_KEY__|$API_KEY|g\" dist/index.html"
+    "build": "rm -rf dist && mkdir -p dist && cp index.html index.tsx types.ts App.tsx metadata.json dist/ && mkdir -p dist/components dist/services dist/utils && cp components/* dist/components/ && cp services/* dist/services/ && cp utils/* dist/utils/ && sed -i \"s|__API_KEY__|$API_KEY|g\" dist/index.html"
   },
   "keywords": [],
   "author": "",

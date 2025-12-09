@@ -1,10 +1,10 @@
 import React, { useState, useMemo } from 'react';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import SalesOrder from './components/SalesOrder';
-import Accounting from './components/Accounting';
-import VoiceAgent from './components/VoiceAgent';
-import { View } from './types';
+import Sidebar from './components/Sidebar.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import SalesOrder from './components/SalesOrder.tsx';
+import Accounting from './components/Accounting.tsx';
+import VoiceAgent from './components/VoiceAgent.tsx';
+import { View } from './types.ts';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<View>(View.DASHBOARD); // Changed default to Dashboard for better first impression
