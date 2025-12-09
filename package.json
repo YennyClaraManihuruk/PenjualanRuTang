@@ -1,26 +1,11 @@
 {
-  "name": "rutang",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "lumina-erp-prototype",
+  "version": "1.0.0",
+  "description": "Lumina ERP Prototype",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "mkdir -p dist && cp index.html index.tsx types.ts App.tsx dist/ && cp -r components services utils dist/ && sed -i \"s|__API_KEY__|$API_KEY|g\" dist/index.html"
   },
-  "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1",
-    "@google/genai": "^1.32.0",
-    "recharts": "^3.5.1",
-    "lucide-react": "^0.556.0",
-    "jspdf": "2.5.1",
-    "jspdf-autotable": "3.5.31"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
