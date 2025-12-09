@@ -1,0 +1,7 @@
+{
+  "name": "Lumina ERP - High-End Electronics Retail",
+  "description": "A luxury ERP prototype for Home Electronics Retail, featuring an advanced Sales Order creation workflow and an executive BI Dashboard powered by Gemini AI for strategic insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
